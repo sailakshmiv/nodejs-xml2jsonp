@@ -19,7 +19,6 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE
 */
-require.paths.push('/usr/local/lib/node_modules');
 var http = require('http'),
     journey = require('journey'),
     xml2Jsonp = require('./xml2jsonp'),
